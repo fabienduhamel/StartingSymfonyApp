@@ -1,0 +1,6 @@
+#!/bin/bash
+
+composer install &&
+bower install &&
+npm install &&
+bin/gulp min

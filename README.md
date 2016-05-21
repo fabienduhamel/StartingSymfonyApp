@@ -5,3 +5,19 @@
 - Gulp concat
 - Gulp minify
 - Gulp browserSync
+
+## Setup
+
+```
+bin/install
+```
+
+## Run
+
+```
+docker-compose up
+
+# and
+
+bin/gulp
+```
