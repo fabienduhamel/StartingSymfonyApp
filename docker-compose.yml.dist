@@ -1,0 +1,19 @@
+code:
+  image: debian:jessie
+  volumes:
+    - .:/var/www/html
+
+mysql:
+  image: mysql
+  environment:
+    MYSQL_DATABASE: root
+    MYSQL_ROOT_PASSWORD: root
+
+app:
+  image: iamluc/symfony
+  volumes_from:
+    - code
+  links:
+    - mysql
+  ports:
+    - 8000:80
