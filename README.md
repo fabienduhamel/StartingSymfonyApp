@@ -21,3 +21,10 @@ docker-compose up
 
 bin/gulp
 ```
+
+## TODO
+
+- add Gulp plumber
+- add js uglify
+- add less
+
