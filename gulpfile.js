@@ -11,7 +11,7 @@ var config = {
 
 gulp.task('css', function () {
     return gulp.src([
-            'bower_components/bootstrap/dist/css/bootstrap.min.css',
+            'node_modules/bootstrap/dist/css/bootstrap.min.css',
             'app/Resources/css/**/*.css'
         ])
         .pipe(concat('all.css'))

@@ -1,6 +1,5 @@
 #!/bin/bash
 
 composer install &&
-bower install &&
-npm install &&
+npm install --no-optional &&
 bin/gulp min
