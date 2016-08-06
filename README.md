@@ -24,6 +24,4 @@ bin/gulp
 
 ## TODO
 
-- add Gulp plumber
-- add js uglify
-- add less
+- add React + js uglify into other branch
